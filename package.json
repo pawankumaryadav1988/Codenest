@@ -14,23 +14,15 @@
                                           "eject": "react-scripts eject"
                                             },
                                               "eslintConfig": {
-                                                  "extends": [
-                                                        "react-app"
-                                                            ],
-                                                                "rules": {
-                                                                      "no-unused-vars": "off",
-                                                                            "react-hooks/exhaustive-deps": "off"
-                                                                                }
-                                                                                  },
-                                                                                    "browserslist": {
-                                                                                        "production": [
-                                                                                              ">0.2%",
-                                                                                                    "not dead",
-                                                                                                          "not op_mini all"
-                                                                                                              ],
-                                                                                                                  "development": [
-                                                                                                                        "last 1 chrome version"
-                                                                                                                            ]
-                                                                                                                              }
-                                                                                                                              }
+                                                  "extends": ["react-app"],
+                                                      "rules": {
+                                                            "no-unused-vars": "off",
+                                                                  "react-hooks/exhaustive-deps": "off"
+                                                                      }
+                                                                        },
+                                                                          "browserslist": {
+                                                                              "production": [">0.2%"],
+                                                                                  "development": ["last 1 chrome version"]
+                                                                                    }
+                                                                                    }
 }
